@@ -1,0 +1,83 @@
+body {
+    background: rgb(58,58,58);
+    color: white;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: rgb(11, 100, 11);
+    height: 400px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+section { 
+    background:white;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+div {
+    margin: auto;
+    width: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer {
+    background: black;
+    padding: 10px 20px;
+}
+
+.logo {
+    background-image: url(Tim’s-Grocery.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 250px;
+    position: relative;
+    text-indent: -999999px;
+    top: 0px;
+    width: 300px;
+}
+
+.lower {
+    background: grey;
+    color: white;
+}
+
+nav a:link { color: #3498db; }
+nav a:visited { color: red; }
+nav a:hover { color: #FCFC0C; }
+nav a:active { color: #c0f0fc; }
+
+        /* Style for the button link */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+        /* Style for hover effect */
+.button-link:hover {
+    background-color: #2980b9;
+}
